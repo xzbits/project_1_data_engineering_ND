@@ -12,7 +12,8 @@ Sparkify and compare your results with their expected results.
 
 ## Description
 The project includes an ETL pipeline using Python to extract data from `song_data` and `log_data` and load them to 
-`sparkifydb` database. And generate a Dashboard for data by executing queries in `dashboard_analytics.ipynb`.
+`sparkifydb` database. And generate a Dashboard for data by executing queries and plotting with `matplotlib` package 
+in `dashboard_analytics.ipynb`.
 
 ## Database in STAR schema
 ![Sparkify_star_schema.PNG](project1_star_schema.png "sparkifydb STAR schema")
