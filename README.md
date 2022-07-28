@@ -23,8 +23,6 @@ in `dashboard_analytics.ipynb`.
 Create the `sparkifydb` database and add songplays, artists, users, time, and songs tables into the database.
 by running the `create_tables.py`
 
-NOTE: If the database is empty. Comment out `drop_tables(cur, conn)` in `create_tables.py` to avoid error for 
-dropping non-existed tables
 ```
 python create_tables.py
 ```
