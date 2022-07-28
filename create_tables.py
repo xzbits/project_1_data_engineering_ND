@@ -59,7 +59,7 @@ def main():
     - Finally, closes the connection. 
     """
     cur, conn = create_database()  
-    # drop_tables(cur, conn)
+    drop_tables(cur, conn)
     create_tables(cur, conn)
     cur = conn.cursor()
 
